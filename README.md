@@ -41,6 +41,18 @@ Counterfeit currency is a **serious global issue** affecting financial instituti
 | **API**           | Flask/FastAPI    |
 | **Integration**   | REST API (Java ↔ Python) |
 
+## 🤖 Traditional ATM vs. Deep Learning Integration
+
+| **Aspect**                | **Traditional ATM Detection**                         | **Deep Learning Integration**                               |
+|---------------------------|--------------------------------------------------------|------------------------------------------------------------|
+| **Detection Mechanisms**   | Optical, magnetic, size, shape, microprinting          | Multi-feature analysis using AI (texture, shape, color, etc.)|
+| **Adaptability**           | Fixed sensor-based checks                             | Continuously improves and adapts from new data              |
+| **Accuracy**               | Limited to predefined security features                | More accurate with the ability to detect subtle counterfeits |
+| **Detection Method**       | Relies on individual sensors for specific features     | Holistic, simultaneous analysis of multiple features        |
+| **Real-Time Learning**     | Static system with predefined rules                    | AI-driven, real-time learning and adaptation                |
+| **User Interaction**       | Rejects fake notes or stores them for further checks   | Intelligent alerts, feedback, and improved transaction logs  |
+
+By integrating deep learning, **ATM-SecureML** enhances the traditional ATM security systems, providing a smarter, more adaptive solution to counterfeit note detection.
 
 ## 🏗 Installation & Setup
 ### Clone the Repository
