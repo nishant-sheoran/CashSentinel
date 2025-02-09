@@ -3,32 +3,21 @@
 Welcome to **CashSentinel** – the future of ATM security! 🏦💡 This innovative project integrates **Deep Learning** into our existing Java-based **ATM Simulator System** to detect **fake banknotes in real-time**! No more counterfeit cash ruining your financial security. Say hello to **Smart ATMs** powered by AI! 🤖💰
 ## 🎯 Why This Project?
 Counterfeit currency is a **serious global issue** affecting financial institutions and economies. Traditional ATMs accept deposits without verifying the authenticity of banknotes. What if **ATMs could detect fake notes before processing transactions?** 🤯 That’s exactly what **ATM-SecureML** does – a cutting-edge integration of **Artificial Neural Networks (ANN)** with ATMs to **fight fraud like a pro**! 🏆
-## 🛠 Key Features
-- **Banknote Authentication System** 🧐 – Detects **fake vs. real** notes when users deposit money.
-- **Seamless Java-Python Integration** 🔄 – ATM software talks to a **REST API** for real-time verification.
-- **AI-Powered Fraud Detection** ⚡ – Uses **TensorFlow/Keras ANN** trained on the **Banknote Authentication Dataset**.
-- **User Alerts & Logging** 📜 – If a fake note is detected, the system alerts the user & logs the transaction.
-- **Secure & Scalable** 🔒 – Built with robust **Java, Flask, and MySQL** for performance and security.
+## Key Features
+![Github - visual selection](https://github.com/user-attachments/assets/a5b7a25a-3458-4e61-8b29-13bbff19a973)
 
 
-## 🚧 How It Works
-1️⃣ **User Deposits Cash** 🏧💵  
-2️⃣ **System Captures Banknote Features** 🖼️✨  
-3️⃣ **Java Sends Data to Python API** 🔗  
-4️⃣ **AI Model Predicts Real or Fake** 🧠✅❌  
-5️⃣ **Response Sent Back to ATM System** 🚀  
-6️⃣ **Genuine? Deposit Success! 🎉 | Fake? User Alert! 🚨**  
+## How It Works
+![Github - visualization](https://github.com/user-attachments/assets/4eb78fd2-9946-42aa-b52d-ce4835c5c3af)
 
 
-## 🔬 Deep Learning Model Details
-- **Dataset:** Banknote Authentication Dataset (Wavelet Transformed Image Features)
-- **Features Used:**
-  - Variance (VWTI)
-  - Skewness (SWTI)
-  - Curtosis (CWTI)
-  - Entropy (EI)
-- **Model:** Multi-layer **Artificial Neural Network (ANN)** built with **TensorFlow & Keras**.
-- **Training:** Optimized with **Adam optimizer**, **ReLU activation**, and **Softmax classification**.
+## 🔗 Project Integration: CashSentinel  
+**CashSentinel** is a fusion of two projects, bringing together ATM functionalities and AI-powered counterfeit detection:  
+
+1. **[Trinity Rich Bank](https://github.com/nishant-sheoran/Trinity-Rich-Bank)** – A Java-based ATM Simulator that supports essential banking operations like account management, deposits, withdrawals, and PIN changes.  
+2. **[NoteIntel](https://github.com/nishant-sheoran/NoteIntel)** – A Deep Learning-powered Fake Banknote Detection System using an ANN to classify genuine and counterfeit currency.  
+
+By integrating these, **CashSentinel** ensures both seamless transactions and real-time banknote authentication, enhancing security in ATM operations.  
 
 
 ## 💻 Tech Stack
@@ -54,12 +43,13 @@ Counterfeit currency is a **serious global issue** affecting financial instituti
 
 By integrating deep learning, **ATM-SecureML** enhances the traditional ATM security systems, providing a smarter, more adaptive solution to counterfeit note detection.
 
-## 🏗 Installation & Setup
+## Installation & Setup
 ### Clone the Repository
 ```bash
  git clone https://github.com/your-username/CashSentinel.git
  cd CashSentinel
 ```
+
 
 
 ### 🏦 Setting Up the ATM System (Java)
@@ -84,9 +74,7 @@ By integrating deep learning, **ATM-SecureML** enhances the traditional ATM secu
 
 
 ## 🌟 Future Enhancements
-- **Real-time Image Processing** 📷 – Scan physical banknotes instead of feature-based analysis.
-- **Biometric Integration** 🔐 – Face & fingerprint authentication for even stronger security.
-- **Blockchain for Transaction Logging** ⛓️ – Immutable records for fraud tracking.
+![Github - visual selection (1)](https://github.com/user-attachments/assets/251e76cd-d1b3-47e9-9ecf-f45fcc7985a6)
 
 ## 📜 License
 This project is open-source and available under the **MIT License**.
