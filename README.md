@@ -1,8 +1,8 @@
 # CashSentinel
-## 🔥 Overview
-Welcome to **CashSentinel** – the future of ATM security! 🏦💡 This innovative project integrates **Deep Learning** into our existing Java-based **ATM Simulator System** to detect **fake banknotes in real-time**! No more counterfeit cash ruining your financial security. Say hello to **Smart ATMs** powered by AI! 🤖💰
-## 🎯 Why This Project?
-Counterfeit currency is a **serious global issue** affecting financial institutions and economies. Traditional ATMs accept deposits without verifying the authenticity of banknotes. What if **ATMs could detect fake notes before processing transactions?** 🤯 That’s exactly what **ATM-SecureML** does – a cutting-edge integration of **Artificial Neural Networks (ANN)** with ATMs to **fight fraud like a pro**! 🏆
+## Overview
+Welcome to **CashSentinel** – the future of ATM security! 🏦💡 This innovative project integrates **Deep Learning** into our existing Java-based **ATM Simulator System** to detect **fake banknotes in real-time**! No more counterfeit cash ruining your financial security. Say hello to **Smart ATMs** powered by AI! 
+## Why This Project?
+Counterfeit currency is a **serious global issue** affecting financial institutions and economies. Traditional ATMs accept deposits without verifying the authenticity of banknotes. What if **ATMs could detect fake notes before processing transactions?**  That’s exactly what **ATM-SecureML** does – a cutting-edge integration of **Artificial Neural Networks (ANN)** with ATMs to **fight fraud like a pro**!
 ## Key Features
 ![Github - visual selection](https://github.com/user-attachments/assets/a5b7a25a-3458-4e61-8b29-13bbff19a973)
 
@@ -52,13 +52,13 @@ By integrating deep learning, **ATM-SecureML** enhances the traditional ATM secu
 
 
 
-### 🏦 Setting Up the ATM System (Java)
+### Setting Up the ATM System (Java)
 1. Open the Java project in **NetBeans/IntelliJ**.
 2. Set up MySQL database and update `Conn.java`.
 3. Run `ATM.java` to start the system.
 
 
-### 🧠 Setting Up the ML Model (Python)
+### Setting Up the ML Model (Python)
 1. Install dependencies:
    ```bash
    pip install tensorflow flask numpy pandas scikit-learn
@@ -73,7 +73,7 @@ By integrating deep learning, **ATM-SecureML** enhances the traditional ATM secu
    ```
 
 
-## 🌟 Future Enhancements
+## Future Enhancements
 ![Github - visual selection (1)](https://github.com/user-attachments/assets/251e76cd-d1b3-47e9-9ecf-f45fcc7985a6)
 
 ## 📜 License
